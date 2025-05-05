@@ -1,3 +1,7 @@
+# Generators.Dispose
+
+It makes implementing the Dispose pattern as simple as possible.
+
 ## How to use?
 
 You can install its latest version using your IDE Nuget package manager by using dotnet command as follows:
