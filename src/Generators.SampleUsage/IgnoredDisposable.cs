@@ -15,7 +15,7 @@ public partial class IgnoredDisposable : IDisposable
         GC.SuppressFinalize(this);
     }
 
-    // Protected implementation of Dispose pattern.
+    // Protected implementation of the Dispose pattern.
     protected virtual void Dispose(bool disposing)
     {
         if (!_disposed)
