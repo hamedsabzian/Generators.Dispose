@@ -7,7 +7,7 @@ dotnet add package Generators.Dispose
 ```
 | Package | Version |
 |:-------:|:-------:|
-| Generators.Dispose | [![NuGet Badge](https://buildstats.info/nuget/Generators.Dispose)](https://www.nuget.org/packages/Generators.Dispose) |
+| Generators.Dispose | [![NuGet](https://img.shields.io/nuget/vpre/Generators.Dispose.svg)](https://www.nuget.org/packages/Generators.Dispose) |
 
 It generates a partial class for all partial classes that implement `IDisposable` interface.
 
@@ -46,7 +46,7 @@ public partial class SampleClass : IDisposable
 }
 ```
 
-If you have a partial class implements `IDisposable` interface, but you want to exclude it from generation, just use `IgnoreGeneration` attribute.
+If you have a partial class implements `IDisposable` interface, but you want to exclude it from source generation, just use `IgnoreGeneration` attribute.
 
 ```csharp
 [IgnoreGeneration]
